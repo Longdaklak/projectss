@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #header {
+            height: 600px;
+            background-image: url(./images/lt6gE86VyaA.png);
+            background-size: 100% 600px;
+            background-repeat: no-repeat;
+            position: relative;
+            border-radius: 0 0 70% 70% / 0 0 20% 20%;
+
+        }
+
+        .logo {
+            font-size: 20px;
+        }
+
+        #main-menu li {
+            color: white;
+            padding: 0 20px;
+        }
+
+        .h1 {
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        .h3 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .section {
+            margin: 50px 0;
+        }
+
+        .section .section-body {
+            margin-top: 80px;
+        }
+
+        #features #icons {
+            margin: 0 -80px;
+        }
+
+        #features #icons .icon {
+            text-align: -webkit-center;
+            padding: 20px 80px;
+        }
+
+        #features #icons .icon p {
+            --tw-bg-opacity: 1;
+            color: rgb(154 52 18 / var(--tw-bg-opacity));
+        }
+
+        .excerpts {
+            margin-top: 80px;
+        }
+
+        .excerpts img {
+            border-top-right-radius: 18% 50%;
+            border-bottom-right-radius: 18% 50%;
+        }
+
+        #list-news .item-news {
+            margin-top: 30px;
+        }
+
+        #comments {
+            text-align: -webkit-center;
+        }
+
+        #footer {
+            color: white;
+            padding-top: 150px;
+            padding-bottom: 50px;
+            background: #2D2424;
+            position: relative;
+        }
+
+        .curved-rectangle-2 {
+            top: 0;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .curved-rectangle-2::before {
+            content: "";
+            position: absolute;
+            top: -100%;
+            left: -50%;
+            width: 100%;
+            height: 200px;
+            background-color: white;
+            border-radius: 50%;
+            transform: translateX(50%);
+        }
+
+        .box .box-head {
+            height: 100px;
+        }
+    </style>
+    <div id="wrapper">
+        <div id="header" class="pt-10 pb-14">
+            <div class="curved-rectangle-1"></div>
+            <div class="container mx-auto px-48">
+                <div class="flex justify-between items-center">
+                    <p class="logo text-white font-medium">Trauship</p>
+                    <ul id="main-menu" class="flex">
+                        <li>Features</li>
+                        <li>Products</li>
+                        <li>Testimonial</li>
+                        <li>Contact</li>
+                    </ul>
+                    <button class="text-white bg-orange-800 py-2 px-5 rounded-3xl">Try a demo</button>
+                </div>
+                <div class="text-center mt-16">
+                    <i class="fa-solid fa-caret-right text-3xl text-white bg-orange-800"
+                        style="border-radius: 50%;padding: 10px 20px;"></i>
+                    <p class="text-white h1">Best place to buy rocket</p>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur. Aspernatur, ipsam!</p>
+                    <div class="flex justify-center mt-5">
+                        <button class="text-white bg-orange-800 py-2 px-5 mr-7 rounded-3xl">Try a demo</button>
+                        <button class="text-white border-solid border-2 py-2 px-5 rounded-3xl">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="features" class="section container mx-auto px-48">
+                <div class="section-head text-center">
+                    <p class="h1">Features you can's avoid</p>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem cumque
+                        atque, consequatur
+                        voluptatibus sapiente dolorem officia sed quibusdam provident?</p>
+                </div>
+                <div class="section-body">
+
+                    <div id="icons" class="grid grid-cols-2 lg:grid-cols-3">
+                        <div class="icon">
+                            <img src="images/icon-1.png" alt="">
+                            <p>Solid Fuel</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                        <div class="icon">
+                            <img src="images/icon-2.png" alt="">
+                            <p>Liquid Fuel</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                        <div class="icon">
+                            <img src="images/icon-3.png" alt="">
+                            <p>Ion Rocket</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                        <div class="icon">
+                            <img src="images/icon-4.png" alt="">
+                            <p>Plasma Rocket</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                        <div class="icon">
+                            <img src="images/icon-5.png" alt="">
+                            <p>Supersonic Rocket</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                        <div class="icon">
+                            <img src="images/icon-6.png" alt="">
+                            <p>Ultra Rocket</p>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur nemo iste sed
+                                ea asperiores illum amet natus sunt omnis. Provident!</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="excerpts flex bg-orange-200">
+                <img src="images/bg-1.png" alt="">
+                <div class="p-10 text-orange-800">
+                    <p class="h1">
+                        “Right time to invest into space”
+                    </p>
+                    <p>
+                        Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis
+                        ac id mauris eget.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum aperiam magnam repellendus,
+                        sapiente modi reprehenderit ea debitis? Reprehenderit tempora consequatur nisi officiis, rem quo
+                        nemo ex ducimus possimus quasi iusto neque perspiciatis non cumque, repellendus quibusdam
+                        nostrum laboriosam quidem earum sunt sed? Rerum aperiam animi inventore aut, eaque sequi
+                        asperiores!
+                    </p>
+                    <div class="flex mt-10">
+                        <img src="images/avatar-1.png" alt="" class="mr-5">
+                        <small>Milon Ask<br>
+                            CEO, Blackhole</small>
+                    </div>
+                </div>
+            </div>
+            <div id="affordable" class="section container mx-auto px-48">
+                <div class="section-head text-center">
+                    <p class="h1">Affordable, good quality.</p>
+                    <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae rem cumque
+                        atque, consequatur
+                        voluptatibus sapiente dolorem officia sed quibusdam provident?</p>
+                </div>
+                <div class="section-body">
+                    <div id="list-news" class="grid grid-cols-1 lg:grid-cols-2">
+                        <div class="item-news flex">
+                            <img src="images/img-1.png" alt="">
+                            <div class="info-news m-7">
+                                <h3>Million pounds of thrust</h3>
+                                <small>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris
+                                    diamprice ore.</small>
+                                <br>
+                                <a href="#" class="text-orange-800">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="item-news flex">
+                            <img src="images/img-2.png" alt="">
+                            <div class="info-news m-7">
+                                <h3>Million pounds of thrust</h3>
+                                <small>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris
+                                    diamprice ore.</small>
+                                <br>
+                                <a href="#" class="text-orange-800">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="item-news flex">
+                            <img src="images/img-3.png" alt="">
+                            <div class="info-news m-7">
+                                <h3>Million pounds of thrust</h3>
+                                <small>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris
+                                    diamprice ore.</small>
+                                <br>
+                                <a href="#" class="text-orange-800">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="item-news flex">
+                            <img src="images/img-4.png" alt="">
+                            <div class="info-news m-7">
+                                <h3>Million pounds of thrust</h3>
+                                <small>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris
+                                    diamprice ore.</small>
+                                <br>
+                                <a href="#" class="text-orange-800">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="stories" class="bg-gray-200 section container mx-auto px-48 flex py-16">
+                <div id="info-blog">
+                    <h1 class="h1 mb-4">Don’t miss Rocket Science blog</h1>
+                    <p class="text-gray-400 mb-4">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus
+                        eu,
+                        mauris pretium mollis ac
+                        id mauris eget.</p>
+                    <button class="text-white bg-orange-800 py-2 px-5 rounded-3xl">Try a demo</button>
+                </div>
+                <div class="card px-3">
+                    <div class="card-head rounded-t-lg">
+                        <img src="images/img-6.png" alt="">
+                    </div>
+                    <div class="card-body rounded-b-lg p-7 bg-white">
+                        <h3>“Rocket lab boots its space system”</h3>
+                        <small>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</small>
+                        <br>
+                        <a href="#" class="text-orange-800">Read story</a>
+                    </div>
+                </div>
+                <div class="card px-3">
+                    <div class="card-head rounded-t-lg">
+                        <img src="images/img-5.png" alt="">
+                    </div>
+                    <div class="card-body rounded-b-lg p-7 bg-white">
+                        <h3>“Rocket lab boots its space system”</h3>
+                        <small>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</small>
+                        <br>
+                        <a href="#" class="text-orange-800">Read story</a>
+                    </div>
+                </div>
+            </div>
+            <div id="comments" class="section container mx-auto px-48 flex text-center">
+                <div class="comment">
+                    <img src="images/avt-1.png" alt="">
+                    <p class="mb-5">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.
+                    </p>
+                    <b>Wade Warren</b>
+                    <br>
+                    <small>Astronaut</small>
+                </div>
+                <div class="comment">
+                    <img src="images/avt-2.png" alt="">
+                    <p class="mb-5">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.
+                    </p>
+                    <b>Wade Warren</b>
+                    <br>
+                    <small>Astronaut</small>
+                </div>
+                <div class="comment">
+                    <img src="images/avt-3.png" alt="">
+                    <p class="mb-5">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.
+                    </p>
+                    <b>Wade Warren</b>
+                    <br>
+                    <small>Astronaut</small>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="curved-rectangle-2"></div>
+            <div class="container mx-auto px-48">
+                <div class="grid grid-cols-1 lg:grid-cols-3">
+                    <div class="box">
+                        <div class="box-head">
+                            <h1 class="h1">
+                                Traunship
+                            </h1>
+                        </div>
+                        <div class="box-body">
+                            <p>4517 Washington Ave. Manchester,<br>
+                                Kentucky 39495</p>
+                            <p>(684) 555-0102</p>
+                            <p>(603) 555-0123</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <h3 class="h3">Quick Links</h3>
+                        </div>
+                        <div class="box-body">
+                            <p>Features</p>
+                            <p>Products</p>
+                            <p>Testimonial</p>
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <h3 class="h3">Newsletter</h3>
+                        </div>
+                        <div class="box-body bg-gray-500 rounded-lg p-8" style="min-height: 100px;">
+                            <p class="pb-5">We send updates in every week</p>
+                            <input type="text" class="w-9/12 rounded-lg p-2">
+                            <button class="text-white bg-orange-800 ml-1 py-2 px-5 rounded-3xl">Go</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright" class="mt-10 border-t-2 pt-3 border-gray-500 text-center">
+                    <p>© 2021 Traunship. All right reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
